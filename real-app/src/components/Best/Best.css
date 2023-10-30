@@ -1,0 +1,82 @@
+.Best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .Best h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem; /* Adjust the margin as needed */
+  }
+  
+  .Best > div {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    max-width: 900px; /* Adjust the max-width as needed */
+    width: 100%;
+    margin-bottom: 0.5rem; /* Adjust the margin as needed */
+  }
+  
+  .Best > div p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .Best .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .Best img {
+    width: 40%; /* Adjust the width as needed */
+    height: auto;
+    margin: 5px; /* Add a minimal margin for spacing between images */
+  }
+  
+  @media screen and (max-width: 940px) {
+    .Best {
+      margin: 1rem 0;
+    }
+  
+    .Best > div p {
+      margin: 1rem;
+      font-size: 1rem;
+    }
+  
+    .Best .container {
+      grid-template-columns: 1fr;
+      grid-gap: 0.5rem;
+    }
+  }
+  
+  @media screen and (max-width:940px) {
+    .best {
+        margin: 1rem 0;
+    }
+
+    .best > div p {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .best .container {
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+}
+
+  @media screen and (max-width: 478px) {
+    .best > div p {
+        margin: 1rem .5rem;
+    }
+ 
+  }
